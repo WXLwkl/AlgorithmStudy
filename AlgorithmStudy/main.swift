@@ -10,7 +10,8 @@ import Foundation
 //leetcode946()
 //leetcode160()
 //leetcode206()
-leetcode155()
+//leetcode155()
+leetcode268()
 
 
 
@@ -86,4 +87,9 @@ func leetcode155() {
     print(minStack.getMin()) // -3
     
     print(minStack.listPrint(name: "test"))
+}
+
+func leetcode268() {
+    let missing = Leetcode268.missingNumber([0, 1, 3, 4])
+    print(missing)
 }
