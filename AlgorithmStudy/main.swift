@@ -11,7 +11,8 @@ import Foundation
 //leetcode160()
 //leetcode206()
 //leetcode155()
-leetcode268()
+//leetcode268()
+leetcode187()
 
 
 
@@ -92,4 +93,11 @@ func leetcode155() {
 func leetcode268() {
     let missing = Leetcode268.missingNumber([0, 1, 3, 4])
     print(missing)
+}
+
+func leetcode187() {
+//    let ss = Leetcode187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT")
+//    let ss = Leetcode187.findRepeatedDnaSequences("abcabcaedfedfd", length: 3)
+    let ss = Leetcode187.findRepeatedDnaSequences("AAAAAAAAAAA", length: 10)
+    print(ss)
 }
